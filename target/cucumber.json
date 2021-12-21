@@ -1,0 +1,1422 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-30T02:16:11.018Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2668781000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.netcall.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "as a user over 18 (Happy path)",
+        "description": "",
+        "id": "personal-loan;as-a-user-over-18-(happy-path);;2",
+        "after": [
+          {
+            "result": {
+              "duration": 90334000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.netcall.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 857419000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigate the loan page",
+            "match": {
+              "location": "com.netcall.step_definitions.loan_step_def.user_navigate_the_loan_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2436759000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter the borrow of amount",
+            "match": {
+              "location": "com.netcall.step_definitions.loan_step_def.user_enter_the_borrow_of_amount()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 416776000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter the months",
+            "match": {
+              "location": "com.netcall.step_definitions.loan_step_def.user_enter_the_months()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3098887000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter the \"Car finance\" for loan",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Car finance\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.netcall.step_definitions.loan_step_def.user_enter_the_for_loan(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4003120000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enter personal information \"over 18\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"over 18\"",
+                  "offset": 32
+                }
+              ],
+              "location": "com.netcall.step_definitions.loan_step_def.userEnterPersonalInformation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3198316000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter address info",
+            "match": {
+              "location": "com.netcall.step_definitions.loan_step_def.userEnterAddressInfo()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2036234000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should be able to see \"Thank you for your application\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Thank you for your application\"",
+                  "offset": 27
+                }
+              ],
+              "location": "com.netcall.step_definitions.loan_step_def.userShouldBeAbleToSeeMessage(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@loan"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-30T02:16:29.886Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1494030000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.netcall.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "as a user over 18 (Happy path)",
+        "description": "",
+        "id": "personal-loan;as-a-user-over-18-(happy-path);;3",
+        "after": [
+          {
+            "result": {
+              "duration": 92840000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.netcall.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 873047000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigate the loan page",
+            "match": {
+              "location": "com.netcall.step_definitions.loan_step_def.user_navigate_the_loan_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2441594000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter the borrow of amount",
+            "match": {
+              "location": "com.netcall.step_definitions.loan_step_def.user_enter_the_borrow_of_amount()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 627869000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter the months",
+            "match": {
+              "location": "com.netcall.step_definitions.loan_step_def.user_enter_the_months()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2521469000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter the \"Debt consoildation\" for loan",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Debt consoildation\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.netcall.step_definitions.loan_step_def.user_enter_the_for_loan(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4214746000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enter personal information \"over 18\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"over 18\"",
+                  "offset": 32
+                }
+              ],
+              "location": "com.netcall.step_definitions.loan_step_def.userEnterPersonalInformation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3014358000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter address info",
+            "match": {
+              "location": "com.netcall.step_definitions.loan_step_def.userEnterAddressInfo()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2030183000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should be able to see \"Thank you for your application\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Thank you for your application\"",
+                  "offset": 27
+                }
+              ],
+              "location": "com.netcall.step_definitions.loan_step_def.userShouldBeAbleToSeeMessage(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@loan"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-30T02:16:47.206Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1557791000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.netcall.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "as a user over 18 (Happy path)",
+        "description": "",
+        "id": "personal-loan;as-a-user-over-18-(happy-path);;4",
+        "after": [
+          {
+            "result": {
+              "duration": 89439000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.netcall.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 937774000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigate the loan page",
+            "match": {
+              "location": "com.netcall.step_definitions.loan_step_def.user_navigate_the_loan_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2407814000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter the borrow of amount",
+            "match": {
+              "location": "com.netcall.step_definitions.loan_step_def.user_enter_the_borrow_of_amount()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 414401000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter the months",
+            "match": {
+              "location": "com.netcall.step_definitions.loan_step_def.user_enter_the_months()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3011564000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter the \"Holiday/Vacation\" for loan",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Holiday/Vacation\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.netcall.step_definitions.loan_step_def.user_enter_the_for_loan(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3815864000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enter personal information \"over 18\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"over 18\"",
+                  "offset": 32
+                }
+              ],
+              "location": "com.netcall.step_definitions.loan_step_def.userEnterPersonalInformation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2940333000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter address info",
+            "match": {
+              "location": "com.netcall.step_definitions.loan_step_def.userEnterAddressInfo()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2034703000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should be able to see \"Thank you for your application\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Thank you for your application\"",
+                  "offset": 27
+                }
+              ],
+              "location": "com.netcall.step_definitions.loan_step_def.userShouldBeAbleToSeeMessage(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@loan"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-30T02:17:04.445Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1219558000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.netcall.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "as a user over 18 (Happy path)",
+        "description": "",
+        "id": "personal-loan;as-a-user-over-18-(happy-path);;5",
+        "after": [
+          {
+            "result": {
+              "duration": 85305000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.netcall.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 959184000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigate the loan page",
+            "match": {
+              "location": "com.netcall.step_definitions.loan_step_def.user_navigate_the_loan_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2478086000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter the borrow of amount",
+            "match": {
+              "location": "com.netcall.step_definitions.loan_step_def.user_enter_the_borrow_of_amount()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 413557000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter the months",
+            "match": {
+              "location": "com.netcall.step_definitions.loan_step_def.user_enter_the_months()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2483625000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter the \"Refurbishment\" for loan",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Refurbishment\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.netcall.step_definitions.loan_step_def.user_enter_the_for_loan(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4166122000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enter personal information \"over 18\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"over 18\"",
+                  "offset": 32
+                }
+              ],
+              "location": "com.netcall.step_definitions.loan_step_def.userEnterPersonalInformation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2966393000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter address info",
+            "match": {
+              "location": "com.netcall.step_definitions.loan_step_def.userEnterAddressInfo()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2037213000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should be able to see \"Thank you for your application\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Thank you for your application\"",
+                  "offset": 27
+                }
+              ],
+              "location": "com.netcall.step_definitions.loan_step_def.userShouldBeAbleToSeeMessage(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@loan"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-30T02:17:21.270Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1482709000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.netcall.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "as a user over 18 (Happy path)",
+        "description": "",
+        "id": "personal-loan;as-a-user-over-18-(happy-path);;6",
+        "after": [
+          {
+            "result": {
+              "duration": 91398000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.netcall.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 687119000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User navigate the loan page",
+            "match": {
+              "location": "com.netcall.step_definitions.loan_step_def.user_navigate_the_loan_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2457932000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter the borrow of amount",
+            "match": {
+              "location": "com.netcall.step_definitions.loan_step_def.user_enter_the_borrow_of_amount()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 411634000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter the months",
+            "match": {
+              "location": "com.netcall.step_definitions.loan_step_def.user_enter_the_months()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3037062000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter the \"Wedding finance\" for loan",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Wedding finance\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.netcall.step_definitions.loan_step_def.user_enter_the_for_loan(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3807023000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enter personal information \"over 18\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"over 18\"",
+                  "offset": 32
+                }
+              ],
+              "location": "com.netcall.step_definitions.loan_step_def.userEnterPersonalInformation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2916439000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user enter address info",
+            "match": {
+              "location": "com.netcall.step_definitions.loan_step_def.userEnterAddressInfo()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2033312000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should be able to see \"Thank you for your application\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Thank you for your application\"",
+                  "offset": 27
+                }
+              ],
+              "location": "com.netcall.step_definitions.loan_step_def.userShouldBeAbleToSeeMessage(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@loan"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-30T02:17:38.210Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1476548000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.netcall.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "as a user under 18 (Negative)",
+        "description": "",
+        "id": "personal-loan;as-a-user-under-18-(negative);;2",
+        "after": [
+          {
+            "result": {
+              "duration": 93149000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.netcall.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 811798000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User navigate the loan page",
+            "match": {
+              "location": "com.netcall.step_definitions.loan_step_def.user_navigate_the_loan_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2413832000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enter the borrow of amount",
+            "match": {
+              "location": "com.netcall.step_definitions.loan_step_def.user_enter_the_borrow_of_amount()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 414516000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enter the months",
+            "match": {
+              "location": "com.netcall.step_definitions.loan_step_def.user_enter_the_months()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3035196000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User enter the \"Car finance\" for loan",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Car finance\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.netcall.step_definitions.loan_step_def.user_enter_the_for_loan(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3800744000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User enter personal information \"under 18\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"under 18\"",
+                  "offset": 32
+                }
+              ],
+              "location": "com.netcall.step_definitions.loan_step_def.userEnterPersonalInformation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2898320000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user enter address info",
+            "match": {
+              "location": "com.netcall.step_definitions.loan_step_def.userEnterAddressInfo()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1040324000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User shouldn\u0027t be able to see \"Thank you for your application\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Thank you for your application\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.netcall.step_definitions.loan_step_def.userShouldnTBeAbleToSeeMessage(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@loan"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-30T02:17:54.230Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1472579000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.netcall.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "as a user under 18 (Negative)",
+        "description": "",
+        "id": "personal-loan;as-a-user-under-18-(negative);;3",
+        "after": [
+          {
+            "result": {
+              "duration": 109453000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.netcall.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 806385000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User navigate the loan page",
+            "match": {
+              "location": "com.netcall.step_definitions.loan_step_def.user_navigate_the_loan_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2413449000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enter the borrow of amount",
+            "match": {
+              "location": "com.netcall.step_definitions.loan_step_def.user_enter_the_borrow_of_amount()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 417628000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enter the months",
+            "match": {
+              "location": "com.netcall.step_definitions.loan_step_def.user_enter_the_months()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3064906000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User enter the \"Debt consoildation\" for loan",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Debt consoildation\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.netcall.step_definitions.loan_step_def.user_enter_the_for_loan(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3863835000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User enter personal information \"under 18\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"under 18\"",
+                  "offset": 32
+                }
+              ],
+              "location": "com.netcall.step_definitions.loan_step_def.userEnterPersonalInformation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3107150000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user enter address info",
+            "match": {
+              "location": "com.netcall.step_definitions.loan_step_def.userEnterAddressInfo()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1028680000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User shouldn\u0027t be able to see \"Thank you for your application\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Thank you for your application\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.netcall.step_definitions.loan_step_def.userShouldnTBeAbleToSeeMessage(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@loan"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-30T02:18:10.529Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1459057000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.netcall.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "as a user under 18 (Negative)",
+        "description": "",
+        "id": "personal-loan;as-a-user-under-18-(negative);;4",
+        "after": [
+          {
+            "result": {
+              "duration": 92992000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.netcall.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 872395000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User navigate the loan page",
+            "match": {
+              "location": "com.netcall.step_definitions.loan_step_def.user_navigate_the_loan_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2438882000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enter the borrow of amount",
+            "match": {
+              "location": "com.netcall.step_definitions.loan_step_def.user_enter_the_borrow_of_amount()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 414481000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enter the months",
+            "match": {
+              "location": "com.netcall.step_definitions.loan_step_def.user_enter_the_months()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3065521000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User enter the \"Holiday/Vacation\" for loan",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Holiday/Vacation\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.netcall.step_definitions.loan_step_def.user_enter_the_for_loan(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3779603000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User enter personal information \"under 18\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"under 18\"",
+                  "offset": 32
+                }
+              ],
+              "location": "com.netcall.step_definitions.loan_step_def.userEnterPersonalInformation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2923783000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user enter address info",
+            "match": {
+              "location": "com.netcall.step_definitions.loan_step_def.userEnterAddressInfo()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1040675000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User shouldn\u0027t be able to see \"Thank you for your application\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Thank you for your application\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.netcall.step_definitions.loan_step_def.userShouldnTBeAbleToSeeMessage(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@loan"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-30T02:18:26.661Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1533178000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.netcall.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "as a user under 18 (Negative)",
+        "description": "",
+        "id": "personal-loan;as-a-user-under-18-(negative);;5",
+        "after": [
+          {
+            "result": {
+              "duration": 88216000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.netcall.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 845750000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User navigate the loan page",
+            "match": {
+              "location": "com.netcall.step_definitions.loan_step_def.user_navigate_the_loan_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2406144000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enter the borrow of amount",
+            "match": {
+              "location": "com.netcall.step_definitions.loan_step_def.user_enter_the_borrow_of_amount()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 411591000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enter the months",
+            "match": {
+              "location": "com.netcall.step_definitions.loan_step_def.user_enter_the_months()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2990278000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User enter the \"Refurbishment\" for loan",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Refurbishment\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.netcall.step_definitions.loan_step_def.user_enter_the_for_loan(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3813932000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User enter personal information \"under 18\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"under 18\"",
+                  "offset": 32
+                }
+              ],
+              "location": "com.netcall.step_definitions.loan_step_def.userEnterPersonalInformation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3292759000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user enter address info",
+            "match": {
+              "location": "com.netcall.step_definitions.loan_step_def.userEnterAddressInfo()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1038590000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User shouldn\u0027t be able to see \"Thank you for your application\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Thank you for your application\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.netcall.step_definitions.loan_step_def.userShouldnTBeAbleToSeeMessage(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@loan"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-30T02:18:43.094Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1425458000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.netcall.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 34,
+        "name": "as a user under 18 (Negative)",
+        "description": "",
+        "id": "personal-loan;as-a-user-under-18-(negative);;6",
+        "after": [
+          {
+            "result": {
+              "duration": 97570000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.netcall.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 857444000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User navigate the loan page",
+            "match": {
+              "location": "com.netcall.step_definitions.loan_step_def.user_navigate_the_loan_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2403278000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enter the borrow of amount",
+            "match": {
+              "location": "com.netcall.step_definitions.loan_step_def.user_enter_the_borrow_of_amount()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 411249000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User enter the months",
+            "match": {
+              "location": "com.netcall.step_definitions.loan_step_def.user_enter_the_months()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3054611000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User enter the \"Wedding finance\" for loan",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Wedding finance\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.netcall.step_definitions.loan_step_def.user_enter_the_for_loan(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3789408000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User enter personal information \"under 18\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"under 18\"",
+                  "offset": 32
+                }
+              ],
+              "location": "com.netcall.step_definitions.loan_step_def.userEnterPersonalInformation(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2921937000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user enter address info",
+            "match": {
+              "location": "com.netcall.step_definitions.loan_step_def.userEnterAddressInfo()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1029884000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User shouldn\u0027t be able to see \"Thank you for your application\" message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Thank you for your application\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.netcall.step_definitions.loan_step_def.userShouldnTBeAbleToSeeMessage(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@loan"
+          }
+        ]
+      }
+    ],
+    "name": "Personal Loan",
+    "description": "",
+    "id": "personal-loan",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/test.feature",
+    "tags": [
+      {
+        "name": "@loan",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
